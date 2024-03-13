@@ -49,27 +49,93 @@
 
 <!-- 關於信創 -->
 <section id="AboutXC"></section>
-<h1 style="display: flex; justify-content: center; margin-top: 10vh;">-關於信創-</h1>
-<div class="container">
-  <!-- 關於信創：圖文1 -->
-  <div class="card mb-3">
+<div style="display: flex; justify-content: center; margin-top: 10vh;">
+  <h1 >-關於信創-</h1>
+</div>
+<div class="container"> 
+  <div class="card mb-3">  <!-- 關於信創：標題圖文 -->
     <img src="images/CompanyBG.png" class="card-img" alt="...">
     <div class="card-body">
       <p class="card-text">本公司2004年創業迄今，完成上百件公共工程設計監造案件，過程均無履約爭議、訴訟及賠償事件產生，為信用良好、服務品質穩定之團隊。近年持續投入中央單位補助案相關作業，舉凡提案撰寫、經費爭取之受託協助；設計監造之執行均相當熟稔，具備必要專業及經驗。</p>
     </div>
   </div>
-  <!-- 關於信創：圖文2 -->
-  <div class="container text-center">
+  <div class="container text-center">   <!-- 關於信創：內容圖文 -->
     <div class="row align-items-center">
       <div class="row">
-        <div class="col"><img src="images/Certificate01.jpg" class="img-thumbnail" alt="...">
-          <figcaption class="figure-caption">2023年工程佳作</figcaption>
+        <div class="col"> <!-- 第一張 圖片 -->
+            <!-- 第一張 圖片按鈕 -->
+            <button type="button" class="img-thumbnail" data-bs-toggle="modal" data-bs-target="#awardPic01">
+              <img src="images/Certificate01.jpg" class="img-thumbnail" alt="...">
+            </button>
+            <!-- 第一張 圖片按鈕內容 -->
+            <div class="modal fade" id="awardPic01" tabindex="-1" aria-labelledby="awardPic01Label" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">2023年工程佳作</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="images/Certificate01.jpg" class="img-thumbnail" alt="...">
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- 第一張 圖片說明 -->
+            <figcaption class="figure-caption">2023年工程佳作</figcaption>
         </div>
-        <div class="col"><img src="images/Certificate02.jpg" class="img-thumbnail" alt="...">
-          <figcaption class="figure-caption">2023年工程佳作</figcaption>
+        <div class="col"> <!-- 第二張 圖片 -->
+            <!-- 第二張 圖片按鈕 -->
+            <button type="button" class="img-thumbnail" data-bs-toggle="modal" data-bs-target="#awardPic02">
+              <img src="images/Certificate02.jpg" class="img-thumbnail" alt="...">
+            </button>
+            <!-- 第二張 圖片按鈕內容 -->
+            <div class="modal fade" id="awardPic02" tabindex="-1" aria-labelledby="awardPic02Label" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">2023年工程佳作</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="images/Certificate02.jpg" class="img-thumbnail" alt="...">
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- 第二張 圖片說明 -->
+            <figcaption class="figure-caption">2023年工程佳作</figcaption>
         </div>
-        <div class="col"><img src="images/Certificate03.jpg" class="img-thumbnail" alt="...">
-          <figcaption class="figure-caption">縣府感謝狀</figcaption>
+        <div class="col"> <!-- 第三張 圖片 -->
+            <!-- 第三張 圖片按鈕 -->
+            <button type="button" class="img-thumbnail" data-bs-toggle="modal" data-bs-target="#awardPic03">
+              <img src="images/Certificate03.jpg" class="img-thumbnail" alt="...">
+            </button>
+            <!-- 第三張 圖片按鈕內容 -->
+            <div class="modal fade" id="awardPic03" tabindex="-1" aria-labelledby="awardPic03Label" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">縣府感謝狀</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="images/Certificate03.jpg" class="img-thumbnail" alt="...">
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- 第三張 圖片說明 -->
+            <figcaption class="figure-caption">縣府感謝狀</figcaption>
         </div>
         <div class="col"></div>
       </div>
@@ -189,6 +255,7 @@
   </div>
 </div>
 
+
 <!-- 製作案例 -->
 <section id="Case"> </section>
 <h1 style="display: flex; justify-content: center;margin-top: 10vh;">-製作案例-</h1>
@@ -196,43 +263,83 @@
 <div class="container">
 <!-- 製作案例　圖文 -->
 <div class="card mb-3">
-  <img src="images/image01.jpg" class="card-img" alt="...">
+  <iframe width="max-width" height="400" src="https://www.youtube.com/embed/xZqK4LKYR1g?si=b7TtKygaCmkAPMBS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
   <div class="card-body">      
     <h5 class="card-title">近年實績</h5>
     <p class="card-text">團隊尤其於道路及附屬設施改善、人行無障礙環境建置、路口安全及人本道路調整，以及校園、廟埕與公園空間再造等項目取得豐碩成果，服務業主順利完成計畫、取得補助並為各鄉鎮市營造實質亮點成果。</p>
   </div>
 </div>
 <!-- 製作案例：卡片 -->
-  <div style="display: flex; justify-content: center;">
-    <!-- 卡片一 -->
-    <div class="card" style="width: 18rem; margin: 3px;">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">澎湖七美</h5>
-        <p class="card-text">工程相關資訊待補充</p>
-        <a href="#" class="btn btn-primary">Go</a>
-      </div>
-    </div>
-    <!-- 卡片二 -->
-    <div class="card" style="width: 18rem; margin: 3px;">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">雲林斗六外環道</h5>
-        <p class="card-text">工程相關資訊待補充</p>
-        <a href="#" class="btn btn-primary">Go</a>
-      </div>
-    </div>
-      <!-- 卡片三 -->
+<div class="container text-center">     <!-- 群組一，一個群組四張卡片 -->
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+    <div class="col">    <!-- 卡片一 -->
       <div class="card" style="width: 18rem; margin: 3px;">
-        <img src="..." class="card-img-top" alt="...">
+        <img src="images/Gallery.MGRoad.jpg" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">嘉義民雄</h5>
+          <h5 class="card-title">澎湖馬公</h5>
           <p class="card-text">工程相關資訊待補充</p>
-          <a href="#" class="btn btn-primary">Go</a>
+          <a href="https://maps.app.goo.gl/yzcrvuzZQS2BACks8" target="_blank" class="figure-caption">未修正google街景</a>
         </div>
       </div>
+    </div>
+    <div class="col">    <!-- 卡片二 -->
+      <div class="card" style="width: 18rem; margin: 3px;">
+        <img src="images/Gallery.DLpark.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">雲林斗六人文公園</h5>
+          <p class="card-text">2022年完工</p>
+          <a href="https://maps.app.goo.gl/yzcrvuzZQS2BACks8" target="_blank" class="figure-caption">google街景</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">    <!-- 卡片三 -->
+      <div class="card" style="width: 18rem; margin: 3px;">
+        <img src="images/Gallery.CYpark.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">嘉義民雄左岸公園</h5>
+          <p class="card-text">工程相關資訊待補充</p>
+          <a href="https://maps.app.goo.gl/yzcrvuzZQS2BACks8" target="_blank" class="figure-caption">未修正google街景</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">    <!-- 卡片四 -->
+      <div class="card" style="width: 18rem; margin: 3px;">
+        <img src="images/Gallery.GKRoad.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">古坑中山路</h5>
+          <p class="card-text">工程相關資訊待補充</p>
+          <a href="https://maps.app.goo.gl/yzcrvuzZQS2BACks8" target="_blank" class="figure-caption">未修正google街景</a>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
+<div class="container text-center">     <!-- 群組二，一個群組四張卡片 -->
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+    <div class="col">    <!-- 卡片一 -->
+      <div class="card" style="width: 18rem; margin: 3px;">
+        <img src="images/Gallery.PD.DTRoad.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">屏東市大同高中</h5>
+          <p class="card-text">工程相關資訊待補充</p>
+          <a href="https://maps.app.goo.gl/yzcrvuzZQS2BACks8" target="_blank" class="figure-caption">未修正google街景</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">    <!-- 卡片二 -->
+      <div class="card" style="width: 18rem; margin: 3px;">
+        <img src="images/Gallery.PD.SH.ElementSchool.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">屏東里港三和國小</h5>
+          <p class="card-text">工程相關資訊待補充</p>
+          <a href="https://maps.app.goo.gl/yzcrvuzZQS2BACks8" target="_blank" class="figure-caption">未修正google街景</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
 
 <!--聯絡資訊 -->
 <section id="Contact"> </section>
@@ -243,11 +350,19 @@
   <div class="row" >
     <div class="col-sm-6">
       <div class="mx-auto p-2" >
-      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d58894.423847568!2d120.37241931870014!3d22.694710789006344!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346e0e8151f9d8db%3A0x56c02ed1c8c2b62f!2z5L-h5Ym15bel56iL6aGn5ZWP5pyJ6ZmQ5YWs5Y-4!5e0!3m2!1szh-TW!2stw!4v1709880377262!5m2!1szh-TW!2stw" width="350" height="250" style="border:0; " allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe>
+      <h4>地址</h4>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d58894.423847568!2d120.37241931870014!3d22.694710789006344!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346e0e8151f9d8db%3A0x56c02ed1c8c2b62f!2z5L-h5Ym15bel56iL6aGn5ZWP5pyJ6ZmQ5YWs5Y-4!5e0!3m2!1szh-TW!2stw!4v1709880377262!5m2!1szh-TW!2stw" width="max-width" height="250" style="border:0; " allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe>
+      <h5>高雄市大社區翠屏路84巷2號</h5>
       </div>
     </div>
-    <div class="col-sm-6"><img src="images/contectInfo.jpg" alt="" style="max-width: 70%;"></div>
+    <div class="col-sm-6">
+      <img src="images/contectInfo.jpg" alt="" style="max-width: 100%;">
+    </div>
   </div>
+</div>
+
+<div onload="loadAJAX('test')">
+  <div id="demo"></div>
 </div>
 
 <!--頁尾 -->
@@ -269,6 +384,26 @@
       </div>
   </div>
 </footer>
+
+<script>
+  function loadAJAX(page){
+      var url=page + ".html";   //要載入的檔案
+      var xhr=new XMLHttpRequest();   //宣告XHR 物件變數,透過此物件存取伺服器的資源
+      xhr.onreadystatechange=function(){
+          //readyStae表示完成下載操作,status 200 請求成功
+          if(xhr.readyState===4 && this.status===200){
+              var obj=xhr.response;   //物件型別
+              //demo.innerHTML=obj;
+              demo.innerHTML=xhr.responseText;    //傳回文字內容,若請求失敗,則傳回null
+          }
+      }
+
+      xhr.open('get',url,true);   //初始化請求,方法,url,非同步與否,預設為true
+      xhr.send(); //發送請求
+
+  }
+</script>
+
 </body>
 </html>
 
