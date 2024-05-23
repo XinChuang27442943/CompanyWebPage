@@ -40,12 +40,10 @@
         </div>
     </div>
   </nav>
-<!-- 網站內容 -->
+<!-- 首頁影片 -->
 <div>
   <video class="object-fit-contain" src="images/IndexMov.mp4" type="video/mp4" width=100%; autoplay loop muted></video> 
 </div>
-
-<p class="card-text"></p>
 
 <!-- 關於信創 -->
 <section id="AboutXC"></section>
@@ -253,7 +251,6 @@
   </div>
 </div>
 
-
 <!-- 製作案例 -->
 <section id="Case"> </section>
 <h1 style="display: flex; justify-content: center;margin-top: 10vh;">-製作案例-</h1>
@@ -339,7 +336,6 @@
   </div>
 </div>
 
-
 <!--聯絡資訊 -->
 <section id="Contact"> </section>
 <h1 style="display: flex; justify-content: center; margin-top: 10vh;">-聯絡資訊-</h1>
@@ -379,25 +375,6 @@
       </div>
   </div>
 </footer>
-
-<script>
-  function loadAJAX(page){
-      var url=page + ".html";   //要載入的檔案
-      var xhr=new XMLHttpRequest();   //宣告XHR 物件變數,透過此物件存取伺服器的資源
-      xhr.onreadystatechange=function(){
-          //readyStae表示完成下載操作,status 200 請求成功
-          if(xhr.readyState===4 && this.status===200){
-              var obj=xhr.response;   //物件型別
-              //demo.innerHTML=obj;
-              demo.innerHTML=xhr.responseText;    //傳回文字內容,若請求失敗,則傳回null
-          }
-      }
-
-      xhr.open('get',url,true);   //初始化請求,方法,url,非同步與否,預設為true
-      xhr.send(); //發送請求
-
-  }
-</script>
 
 </body>
 </html>
